@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7E83C66147A89580074CDAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C65147A89580074CDAB /* UIKit.framework */; };
+		A7E83C68147A89580074CDAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C67147A89580074CDAB /* Foundation.framework */; };
+		A7E83C6A147A89580074CDAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C69147A89580074CDAB /* CoreGraphics.framework */; };
+		A7E83C6C147A89580074CDAB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C6B147A89580074CDAB /* CoreData.framework */; };
+		A7E83C72147A89580074CDAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7E83C70147A89580074CDAB /* InfoPlist.strings */; };
+		A7E83C74147A89580074CDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C73147A89580074CDAB /* main.m */; };
+		A7E83C78147A89580074CDAB /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C77147A89580074CDAB /* MDAppDelegate.m */; };
+		A7E83C7B147A89580074CDAB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E83C79147A89580074CDAB /* MainStoryboard.storyboard */; };
+		A7E83C7E147A89580074CDAB /* MedicalDiets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C7C147A89580074CDAB /* MedicalDiets.xcdatamodeld */; };
+		A7E83C81147A89580074CDAB /* MDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C80147A89580074CDAB /* MDMainViewController.m */; };
+		A7E83C84147A89580074CDAB /* MDFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C83147A89580074CDAB /* MDFlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7E83C61147A89580074CDAB /* MedicalDiets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalDiets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E83C65147A89580074CDAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7E83C67147A89580074CDAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7E83C69147A89580074CDAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7E83C6B147A89580074CDAB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7E83C6F147A89580074CDAB /* MedicalDiets-Info.plist */ = {isa = PBXFileReference; path = "MedicalDiets-Info.plist"; sourceTree = "<group>"; };
+		A7E83C71147A89580074CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7E83C73147A89580074CDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7E83C75147A89580074CDAB /* MedicalDiets-Prefix.pch */ = {isa = PBXFileReference; path = "MedicalDiets-Prefix.pch"; sourceTree = "<group>"; };
+		A7E83C76147A89580074CDAB /* MDAppDelegate.h */ = {isa = PBXFileReference; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		A7E83C77147A89580074CDAB /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		A7E83C7A147A89580074CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A7E83C7D147A89580074CDAB /* MedicalDiets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalDiets.xcdatamodel; sourceTree = "<group>"; };
+		A7E83C7F147A89580074CDAB /* MDMainViewController.h */ = {isa = PBXFileReference; path = MDMainViewController.h; sourceTree = "<group>"; };
+		A7E83C80147A89580074CDAB /* MDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMainViewController.m; sourceTree = "<group>"; };
+		A7E83C82147A89580074CDAB /* MDFlipsideViewController.h */ = {isa = PBXFileReference; path = MDFlipsideViewController.h; sourceTree = "<group>"; };
+		A7E83C83147A89580074CDAB /* MDFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDFlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E83C5E147A89580074CDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E83C66147A89580074CDAB /* UIKit.framework in Frameworks */,
+				A7E83C68147A89580074CDAB /* Foundation.framework in Frameworks */,
+				A7E83C6A147A89580074CDAB /* CoreGraphics.framework in Frameworks */,
+				A7E83C6C147A89580074CDAB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7E83C56147A89570074CDAB = {
+			isa = PBXGroup;
+			children = (
+				A7E83C6D147A89580074CDAB /* MedicalDiets */,
+				A7E83C64147A89580074CDAB /* Frameworks */,
+				A7E83C62147A89580074CDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E83C62147A89580074CDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E83C61147A89580074CDAB /* MedicalDiets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E83C64147A89580074CDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E83C65147A89580074CDAB /* UIKit.framework */,
+				A7E83C67147A89580074CDAB /* Foundation.framework */,
+				A7E83C69147A89580074CDAB /* CoreGraphics.framework */,
+				A7E83C6B147A89580074CDAB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7E83C6D147A89580074CDAB /* MedicalDiets */ = {
+			isa = PBXGroup;
+			children = (
+				A7E83C76147A89580074CDAB /* MDAppDelegate.h */,
+				A7E83C77147A89580074CDAB /* MDAppDelegate.m */,
+				A7E83C79147A89580074CDAB /* MainStoryboard.storyboard */,
+				A7E83C7F147A89580074CDAB /* MDMainViewController.h */,
+				A7E83C80147A89580074CDAB /* MDMainViewController.m */,
+				A7E83C82147A89580074CDAB /* MDFlipsideViewController.h */,
+				A7E83C83147A89580074CDAB /* MDFlipsideViewController.m */,
+				A7E83C7C147A89580074CDAB /* MedicalDiets.xcdatamodeld */,
+				A7E83C6E147A89580074CDAB /* Supporting Files */,
+			);
+			path = MedicalDiets;
+			sourceTree = "<group>";
+		};
+		A7E83C6E147A89580074CDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E83C6F147A89580074CDAB /* MedicalDiets-Info.plist */,
+				A7E83C70147A89580074CDAB /* InfoPlist.strings */,
+				A7E83C73147A89580074CDAB /* main.m */,
+				A7E83C75147A89580074CDAB /* MedicalDiets-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E83C60147A89580074CDAB /* MedicalDiets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E83C87147A89580074CDAB /* Build configuration list for PBXNativeTarget "MedicalDiets" */;
+			buildPhases = (
+				A7E83C5D147A89580074CDAB /* Sources */,
+				A7E83C5E147A89580074CDAB /* Frameworks */,
+				A7E83C5F147A89580074CDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalDiets;
+			productName = MedicalDiets;
+			productReference = A7E83C61147A89580074CDAB /* MedicalDiets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E83C58147A89570074CDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "semka.novikov@gmail.com";
+			};
+			buildConfigurationList = A7E83C5B147A89570074CDAB /* Build configuration list for PBXProject "MedicalDiets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7E83C56147A89570074CDAB;
+			productRefGroup = A7E83C62147A89580074CDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E83C60147A89580074CDAB /* MedicalDiets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7E83C5F147A89580074CDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E83C72147A89580074CDAB /* InfoPlist.strings in Resources */,
+				A7E83C7B147A89580074CDAB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E83C5D147A89580074CDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E83C74147A89580074CDAB /* main.m in Sources */,
+				A7E83C78147A89580074CDAB /* MDAppDelegate.m in Sources */,
+				A7E83C7E147A89580074CDAB /* MedicalDiets.xcdatamodeld in Sources */,
+				A7E83C81147A89580074CDAB /* MDMainViewController.m in Sources */,
+				A7E83C84147A89580074CDAB /* MDFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7E83C70147A89580074CDAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E83C71147A89580074CDAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7E83C79147A89580074CDAB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E83C7A147A89580074CDAB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7E83C85147A89580074CDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7E83C86147A89580074CDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E83C88147A89580074CDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalDiets/MedicalDiets-Prefix.pch";
+				INFOPLIST_FILE = "MedicalDiets/MedicalDiets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7E83C89147A89580074CDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalDiets/MedicalDiets-Prefix.pch";
+				INFOPLIST_FILE = "MedicalDiets/MedicalDiets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E83C5B147A89570074CDAB /* Build configuration list for PBXProject "MedicalDiets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E83C85147A89580074CDAB /* Debug */,
+				A7E83C86147A89580074CDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E83C87147A89580074CDAB /* Build configuration list for PBXNativeTarget "MedicalDiets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E83C88147A89580074CDAB /* Debug */,
+				A7E83C89147A89580074CDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7E83C7C147A89580074CDAB /* MedicalDiets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7E83C7D147A89580074CDAB /* MedicalDiets.xcdatamodel */,
+			);
+			currentVersion = A7E83C7D147A89580074CDAB /* MedicalDiets.xcdatamodel */;
+			path = MedicalDiets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7E83C58147A89570074CDAB /* Project object */;
+}
