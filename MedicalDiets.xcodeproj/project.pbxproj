@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A764EB1714823D7C00F71FAF /* MDProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A764EB1614823D7C00F71FAF /* MDProduct.m */; };
+		A77005EA147A959C004BF4E1 /* MDDietsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77005E9147A959C004BF4E1 /* MDDietsListController.m */; };
+		A77005F0147A9983004BF4E1 /* MDDietDetailsPages.m in Sources */ = {isa = PBXBuildFile; fileRef = A77005EF147A9983004BF4E1 /* MDDietDetailsPages.m */; };
+		A781ED53147AADE1003AF0CF /* MDDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A781ED52147AADE1003AF0CF /* MDDetailsController.m */; };
 		A7E83C66147A89580074CDAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C65147A89580074CDAB /* UIKit.framework */; };
 		A7E83C68147A89580074CDAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C67147A89580074CDAB /* Foundation.framework */; };
 		A7E83C6A147A89580074CDAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E83C69147A89580074CDAB /* CoreGraphics.framework */; };
@@ -16,28 +20,37 @@
 		A7E83C78147A89580074CDAB /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C77147A89580074CDAB /* MDAppDelegate.m */; };
 		A7E83C7B147A89580074CDAB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E83C79147A89580074CDAB /* MainStoryboard.storyboard */; };
 		A7E83C7E147A89580074CDAB /* MedicalDiets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C7C147A89580074CDAB /* MedicalDiets.xcdatamodeld */; };
-		A7E83C81147A89580074CDAB /* MDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C80147A89580074CDAB /* MDMainViewController.m */; };
-		A7E83C84147A89580074CDAB /* MDFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E83C83147A89580074CDAB /* MDFlipsideViewController.m */; };
+		A7F1B9EB14823DB60027C35A /* MDDiet.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1B9EA14823DB60027C35A /* MDDiet.m */; };
+		A7F1B9EE14823DD80027C35A /* diets.json in Resources */ = {isa = PBXBuildFile; fileRef = A7F1B9ED14823DD80027C35A /* diets.json */; };
+		A7F1B9F0148249230027C35A /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = A7F1B9EF148249230027C35A /* products.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A764EB1514823D7C00F71FAF /* MDProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDProduct.h; path = "Data management/MDProduct.h"; sourceTree = "<group>"; };
+		A764EB1614823D7C00F71FAF /* MDProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDProduct.m; path = "Data management/MDProduct.m"; sourceTree = "<group>"; };
+		A77005E8147A959C004BF4E1 /* MDDietsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDietsListController.h; sourceTree = "<group>"; };
+		A77005E9147A959C004BF4E1 /* MDDietsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDietsListController.m; sourceTree = "<group>"; };
+		A77005EE147A9983004BF4E1 /* MDDietDetailsPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDietDetailsPages.h; sourceTree = "<group>"; };
+		A77005EF147A9983004BF4E1 /* MDDietDetailsPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDietDetailsPages.m; sourceTree = "<group>"; };
+		A781ED51147AADE1003AF0CF /* MDDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDetailsController.h; sourceTree = "<group>"; };
+		A781ED52147AADE1003AF0CF /* MDDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDetailsController.m; sourceTree = "<group>"; };
 		A7E83C61147A89580074CDAB /* MedicalDiets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalDiets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E83C65147A89580074CDAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7E83C67147A89580074CDAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7E83C69147A89580074CDAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A7E83C6B147A89580074CDAB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		A7E83C6F147A89580074CDAB /* MedicalDiets-Info.plist */ = {isa = PBXFileReference; path = "MedicalDiets-Info.plist"; sourceTree = "<group>"; };
+		A7E83C6F147A89580074CDAB /* MedicalDiets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalDiets-Info.plist"; sourceTree = "<group>"; };
 		A7E83C71147A89580074CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7E83C73147A89580074CDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7E83C75147A89580074CDAB /* MedicalDiets-Prefix.pch */ = {isa = PBXFileReference; path = "MedicalDiets-Prefix.pch"; sourceTree = "<group>"; };
-		A7E83C76147A89580074CDAB /* MDAppDelegate.h */ = {isa = PBXFileReference; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		A7E83C75147A89580074CDAB /* MedicalDiets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicalDiets-Prefix.pch"; sourceTree = "<group>"; };
+		A7E83C76147A89580074CDAB /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
 		A7E83C77147A89580074CDAB /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
 		A7E83C7A147A89580074CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A7E83C7D147A89580074CDAB /* MedicalDiets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalDiets.xcdatamodel; sourceTree = "<group>"; };
-		A7E83C7F147A89580074CDAB /* MDMainViewController.h */ = {isa = PBXFileReference; path = MDMainViewController.h; sourceTree = "<group>"; };
-		A7E83C80147A89580074CDAB /* MDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMainViewController.m; sourceTree = "<group>"; };
-		A7E83C82147A89580074CDAB /* MDFlipsideViewController.h */ = {isa = PBXFileReference; path = MDFlipsideViewController.h; sourceTree = "<group>"; };
-		A7E83C83147A89580074CDAB /* MDFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDFlipsideViewController.m; sourceTree = "<group>"; };
+		A7F1B9E914823DB60027C35A /* MDDiet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDDiet.h; path = "Data management/MDDiet.h"; sourceTree = "<group>"; };
+		A7F1B9EA14823DB60027C35A /* MDDiet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDDiet.m; path = "Data management/MDDiet.m"; sourceTree = "<group>"; };
+		A7F1B9ED14823DD80027C35A /* diets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = diets.json; path = "Data management/diets.json"; sourceTree = "<group>"; };
+		A7F1B9EF148249230027C35A /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = products.json; path = "Data management/products.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +68,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A764EB101482151D00F71FAF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A764EB141482157000F71FAF /* Diet details */,
+				A764EB131482155E00F71FAF /* Main screen */,
+				A7E83C79147A89580074CDAB /* MainStoryboard.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A764EB121482152F00F71FAF /* Data management */ = {
+			isa = PBXGroup;
+			children = (
+				A7F1B9EC14823DBD0027C35A /* Raw data */,
+				A764EB1514823D7C00F71FAF /* MDProduct.h */,
+				A764EB1614823D7C00F71FAF /* MDProduct.m */,
+				A7E83C7C147A89580074CDAB /* MedicalDiets.xcdatamodeld */,
+				A7F1B9E914823DB60027C35A /* MDDiet.h */,
+				A7F1B9EA14823DB60027C35A /* MDDiet.m */,
+			);
+			name = "Data management";
+			sourceTree = "<group>";
+		};
+		A764EB131482155E00F71FAF /* Main screen */ = {
+			isa = PBXGroup;
+			children = (
+				A77005E8147A959C004BF4E1 /* MDDietsListController.h */,
+				A77005E9147A959C004BF4E1 /* MDDietsListController.m */,
+			);
+			name = "Main screen";
+			sourceTree = "<group>";
+		};
+		A764EB141482157000F71FAF /* Diet details */ = {
+			isa = PBXGroup;
+			children = (
+				A77005EE147A9983004BF4E1 /* MDDietDetailsPages.h */,
+				A77005EF147A9983004BF4E1 /* MDDietDetailsPages.m */,
+				A781ED51147AADE1003AF0CF /* MDDetailsController.h */,
+				A781ED52147AADE1003AF0CF /* MDDetailsController.m */,
+			);
+			name = "Diet details";
+			sourceTree = "<group>";
+		};
 		A7E83C56147A89570074CDAB = {
 			isa = PBXGroup;
 			children = (
@@ -86,14 +142,10 @@
 		A7E83C6D147A89580074CDAB /* MedicalDiets */ = {
 			isa = PBXGroup;
 			children = (
+				A764EB121482152F00F71FAF /* Data management */,
+				A764EB101482151D00F71FAF /* UI */,
 				A7E83C76147A89580074CDAB /* MDAppDelegate.h */,
 				A7E83C77147A89580074CDAB /* MDAppDelegate.m */,
-				A7E83C79147A89580074CDAB /* MainStoryboard.storyboard */,
-				A7E83C7F147A89580074CDAB /* MDMainViewController.h */,
-				A7E83C80147A89580074CDAB /* MDMainViewController.m */,
-				A7E83C82147A89580074CDAB /* MDFlipsideViewController.h */,
-				A7E83C83147A89580074CDAB /* MDFlipsideViewController.m */,
-				A7E83C7C147A89580074CDAB /* MedicalDiets.xcdatamodeld */,
 				A7E83C6E147A89580074CDAB /* Supporting Files */,
 			);
 			path = MedicalDiets;
@@ -108,6 +160,15 @@
 				A7E83C75147A89580074CDAB /* MedicalDiets-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F1B9EC14823DBD0027C35A /* Raw data */ = {
+			isa = PBXGroup;
+			children = (
+				A7F1B9ED14823DD80027C35A /* diets.json */,
+				A7F1B9EF148249230027C35A /* products.json */,
+			);
+			name = "Raw data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +224,8 @@
 			files = (
 				A7E83C72147A89580074CDAB /* InfoPlist.strings in Resources */,
 				A7E83C7B147A89580074CDAB /* MainStoryboard.storyboard in Resources */,
+				A7F1B9EE14823DD80027C35A /* diets.json in Resources */,
+				A7F1B9F0148249230027C35A /* products.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +239,11 @@
 				A7E83C74147A89580074CDAB /* main.m in Sources */,
 				A7E83C78147A89580074CDAB /* MDAppDelegate.m in Sources */,
 				A7E83C7E147A89580074CDAB /* MedicalDiets.xcdatamodeld in Sources */,
-				A7E83C81147A89580074CDAB /* MDMainViewController.m in Sources */,
-				A7E83C84147A89580074CDAB /* MDFlipsideViewController.m in Sources */,
+				A77005EA147A959C004BF4E1 /* MDDietsListController.m in Sources */,
+				A77005F0147A9983004BF4E1 /* MDDietDetailsPages.m in Sources */,
+				A781ED53147AADE1003AF0CF /* MDDetailsController.m in Sources */,
+				A764EB1714823D7C00F71FAF /* MDProduct.m in Sources */,
+				A7F1B9EB14823DB60027C35A /* MDDiet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +355,7 @@
 				A7E83C89147A89580074CDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

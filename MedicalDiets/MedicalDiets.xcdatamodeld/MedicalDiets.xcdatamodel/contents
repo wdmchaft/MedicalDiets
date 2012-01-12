@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MDDiet" representedClassName="MDDiet" syncable="YES">
+        <attribute name="dietDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="allowedProducts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MDProduct" inverseName="diets" inverseEntity="MDProduct" syncable="YES"/>
+        <relationship name="disallowedProducts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MDProduct" inverseName="diets" inverseEntity="MDProduct" syncable="YES"/>
+    </entity>
+    <entity name="MDProduct" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="diets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MDDiet" inverseName="disallowedProducts" inverseEntity="MDDiet" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MDDiet" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="MDProduct" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
 </model>
